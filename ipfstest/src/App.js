@@ -7,8 +7,8 @@ const ipfs = ipfsClient('http://localhost:5001')
 
 function App() {
 
-  const [buffer, setBuffer] = React.useState(null);
-  const [fileHash, setFileHash] = React.useState("QmU3yPf14D6zFh6mVFLeTqEmditMrYZZcvd5eQuq7FtKbk");
+  const [buffer, setBuffer] = React.useState(null); // State for setting buffer for reading and writing a file
+  const [fileHash, setFileHash] = React.useState("QmU3yPf14D6zFh6mVFLeTqEmditMrYZZcvd5eQuq7FtKbk"); // State for storing filehash of the file
 
   // Captures the file from the computer..!!
   const captureFile = (event) => {
