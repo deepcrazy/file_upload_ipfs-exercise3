@@ -14,3 +14,5 @@
 		- 'fileHash' will be generated after submitting the image and you can get the 'fileHash' from browser console.
 
 **Note: Make sure to change the Gateway port in ipfs config from '8080' to 8081.'**
+
+*All the code is written in App.js file.*
